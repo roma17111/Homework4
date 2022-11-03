@@ -9,13 +9,14 @@ public class Main {
 
     int people = 19;
     if (people >=7 && people <18) {System.out.println("Ребёнок ходит в школу");}
-    if (people >=18 && people <24) {System.out.println("человек уже закончил школу и может отправляться в университет.");}
-    if (people >=24) {System.out.println("человек окончил университет и ему пора искать первую работу");}
+    else if (people >=18 && people <24) {System.out.println("человек уже закончил школу " +
+            "и может отправляться в университет.");}
+    else  {System.out.println("человек окончил университет и ему пора искать первую работу");}
 
-    int vagon = 1;
+    int vagon = 109;
     if (vagon >=0 && vagon < 60) {System.out.println("В вагоне есть сидячие и стоячие места");}
-    if (vagon >=60 && vagon <102) {System.out.println("В вагоне только стоячие места");}
-    if (vagon >=102) {System.out.println(" вагон уже полностью забит.");}
+    else if (vagon >=60 && vagon <102) {System.out.println("В вагоне только стоячие места");}
+    else  {System.out.println(" вагон уже полностью забит.");}
 
 
     }
